@@ -123,10 +123,7 @@ struct CalculationView: View {
             Group {
                 
                 HStack {
-                    Text("Bill Amount")
-                        .font(.headline.smallCaps())
-                    
-                    Spacer()
+                    TitleView(title: "Bill Amount")
                 }
                 .padding(.horizontal)
                 
@@ -143,10 +140,10 @@ struct CalculationView: View {
             Group {
                 
                 HStack {
-                    Text("Tip Percentage")
-                        .font(.headline.smallCaps())
+                    TitleView(title: "Tip Percentage")
                     
-                    Spacer()
+                   
+                    
                 }
                 .padding(.horizontal)
                 
@@ -171,10 +168,10 @@ struct CalculationView: View {
             Group {
                 
                 HStack {
-                    Text("Total with Tip")
-                        .font(.headline.smallCaps())
+                    TitleView(title: "Total with tip")
+                  
                     
-                    Spacer()
+               
                 }
                 .padding(.horizontal)
                 
@@ -192,10 +189,8 @@ struct CalculationView: View {
             Group {
                 
                 HStack {
-                    Text("How many people?")
-                        .font(.headline.smallCaps())
-                    
-                    Spacer()
+                    TitleView(title: "How many people?")
+              
                 }
                 .padding(.horizontal)
                 
@@ -210,10 +205,7 @@ struct CalculationView: View {
             Group {
                 
                 HStack {
-                    Text("Each person Pays...")
-                        .font(.headline.smallCaps())
-                    
-                    Spacer()
+                    TitleView(title: "Each person pays")
                 }
                 .padding(.horizontal)
                 
